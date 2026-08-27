@@ -1,6 +1,0 @@
-"scenario_id","scenario_label","scenario_family","ZI","corstr","rho","min_postsplit_positive_cell_n","median_postsplit_positive_cell_n","cells_below_10_positive","cells_below_20_positive","cells_below_30_positive","cells_below_50_positive"
-"C1_ZI_37_independence_rho_0","C1","C. Independent outcomes",37,"independence",0,21.505,30.9325,2e-04,0.2582,6.3998,15.983
-"A2_ZI_37_ar1_rho_0.3","A2","A. Correlated outcomes, rho 0.3",37,"ar1",0.3,21.5078,30.9063,4e-04,0.2662,6.3988,15.9836
-"A1_ZI_37_exchangeable_rho_0.3","A1","A. Correlated outcomes, rho 0.3",37,"exchangeable",0.3,21.6118,30.9223,2e-04,0.2452,6.3952,15.9834
-"B2_ZI_37_ar1_rho_0.5","B2","B. Correlated outcomes, rho 0.5",37,"ar1",0.5,21.5308,30.9018,0,0.27,6.4464,15.9828
-"B1_ZI_37_exchangeable_rho_0.5","B1","B. Correlated outcomes, rho 0.5",37,"exchangeable",0.5,21.704,30.9878,2e-04,0.2458,6.3316,15.9842

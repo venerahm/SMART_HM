@@ -8,34 +8,6 @@ immediate_cat <- function(...) {
   invisible(NULL)
 }
 
-load_data_like_design_params <- function(calibration_dir) {
-  design_path <- file.path(calibration_dir, "data_like_design_params.csv")
-  if (!file.exists(design_path)) {
-    immediate_cat("Data-like calibration file not found: ", design_path)
-    immediate_cat("Using conditional_design_defaults(); run Derive_Data_Like_Simulation_Values.R to refresh calibration.")
-    return(conditional_design_defaults())
-  }
-  
-  design_table <- utils::read.csv(design_path, stringsAsFactors = FALSE)
-  if (!all(c("design_input", "value") %in% names(design_table))) {
-    stop("Unexpected design calibration format: ", design_path)
-  }
-  
-  values <- as.list(as.numeric(design_table$value))
-  names(values) <- design_table$design_input
-  values
-}
-
-load_data_like_Y0_ref <- function(calibration_dir, default = 12) {
-  calibration_path <- file.path(calibration_dir, "scenario_calibration_values.csv")
-  if (!file.exists(calibration_path)) return(default)
-  
-  calibration <- utils::read.csv(calibration_path, stringsAsFactors = FALSE)
-  idx <- which(calibration$quantity == "Y0_ref_median")
-  if (length(idx) != 1 || !is.finite(calibration$value[idx])) return(default)
-  calibration$value[idx]
-}
-
 positive_cell_summary <- function(long_data, spltime) {
   post_data <- long_data[long_data$time > spltime, , drop = FALSE]
   if (nrow(post_data) == 0) {

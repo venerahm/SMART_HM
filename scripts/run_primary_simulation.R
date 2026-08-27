@@ -2,15 +2,18 @@
 # Manuscript Conditional-First Hurdle SMART Simulation: Primary Grid #
 #####################################################################
 #
-# Primary manuscript scenarios for the exact conditional hurdle model with
-# Y0 handled as a baseline adjustment covariate.
+# Primary manuscript scenarios for the exact conditional hurdle model with Y0
+# handled as a baseline adjustment covariate.
 #
 # Scenario families:
 #   A. Data-like primary
 #   B. Correlation sensitivity
 #   C. Zero-inflation sensitivity
 #
-# This script follows Tests_conditional.R:
+# This script is self-contained apart from the reusable functions in R/ and the
+# public design inputs in config/. It does not require the private data analysis.
+#
+# Computational steps:
 #   1. Generate observed SMART data from exact conditional hurdle GLMs.
 #   2. Compute DTR truth by g-computation.
 #   3. Fit the same observed-data conditional GLMs.
@@ -21,18 +24,19 @@ suppressPackageStartupMessages({
   library(stats)
 })
 
-source("GEE_Code/HM/Y0_Baseline/functions_HM_conditional.R")
-source("GEE_Code/HM/Y0_Baseline/generateSMART_GEE_conditional.R")
-source("GEE_Code/HM/Y0_Baseline/fit_gcomp_conditional.R")
-source("GEE_Code/HM/Y0_Baseline/plot_conditional_results.R")
-source("GEE_Code/HM/Y0_Baseline/simulation_wrapper_utils.R")
+source("R/conditional_hurdle_model.R")
+source("R/simulate_smart_data.R")
+source("R/fit_g_computation.R")
+source("R/plot_simulation_results.R")
+source("R/simulation_helpers.R")
+source("config/simulation_design.R")
 
 # -----------------------
 # User-configurable block
 # -----------------------
 
 n <- 400
-niter <- 5000
+niter <- as.integer(Sys.getenv("SMART_HM_NITER", "5000"))
 progress_every <- max(1, floor(niter / 10))
 times <- c(1, 2, 4)
 spltime <- 1
@@ -42,19 +46,20 @@ use_delta_se <- TRUE
 
 output_subdir <- paste0("niter_", niter)
 output_dir <- file.path(
-  "GEE_Code/HM/Y0_Baseline/New_Surrogate_Results/Sim_Results_Cond",
-  "Manuscript_Primary",
+  Sys.getenv("SMART_HM_RESULTS_DIR", "results"),
+  "primary_simulation",
   output_subdir
 )
 
-calibration_dir <- "GEE_Code/HM/Y0_Baseline/Data_Results_Cond_New_Surrogate/Data_Like_Calibration"
-design_params <- load_data_like_design_params(calibration_dir)
-Y0_ref <- load_data_like_Y0_ref(calibration_dir, default = 12)
+design_params <- simulation_design_params
+Y0_ref <- simulation_Y0_ref
 
-# Dynamic treatment regimes d = (A1, A2R, A2NR).
+# Dynamic treatment regimes d = (A1, A2R, A2NR), where A2R is the second-stage
+# option for responders and A2NR is the second-stage option for nonresponders.
 dtr_grid <- expand.grid(A1 = c(-1, 1), A2R = c(-1, 1), A2NR = c(-1, 1))
 
-# Large reference population for exact g-computation truth.
+# A large baseline-outcome reference population keeps Monte Carlo noise in the
+# g-computation truth negligible relative to the simulation repetitions.
 set.seed(seed)
 Y0_truth <- gen_Y0_conditional(100000)
 

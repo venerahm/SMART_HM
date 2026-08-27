@@ -740,8 +740,7 @@ plot_zero_prediction_diagnostics <- function(zero_summary, output_dir,
 }
 
 plot_conditional_results_from_dir <- function(
-    output_dir = file.path("GEE_Code/HM/Y0_Baseline/Sim_Results_Cond",
-                           "niter_100"),
+    output_dir = file.path("results", "primary_simulation", "niter_100"),
     n = NA_integer_,
     niter = NA_integer_,
     month = NA_integer_,

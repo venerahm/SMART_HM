@@ -10,16 +10,20 @@
 #      generated counts, including zeros.
 #   4. Response-model misspecification: generate response using
 #      A1 + Y0 + BLDEPPOS, then fit the working response model A1 + Y0.
+#
+# These diagnostics use the same public design configuration as the primary
+# simulation and write generated outputs under results/ by default.
 
 suppressPackageStartupMessages({
   library(stats)
 })
 
-source("GEE_Code/HM/Y0_Baseline/functions_HM_conditional.R")
-source("GEE_Code/HM/Y0_Baseline/generateSMART_GEE_conditional.R")
-source("GEE_Code/HM/Y0_Baseline/fit_gcomp_conditional.R")
-source("GEE_Code/HM/Y0_Baseline/plot_conditional_results.R")
-source("GEE_Code/HM/Y0_Baseline/simulation_wrapper_utils.R")
+source("R/conditional_hurdle_model.R")
+source("R/simulate_smart_data.R")
+source("R/fit_g_computation.R")
+source("R/plot_simulation_results.R")
+source("R/simulation_helpers.R")
+source("config/simulation_design.R")
 
 # -----------------------
 # User-configurable block
@@ -37,9 +41,9 @@ response_sample_size_values <- c(400, 1000)
 zero_prediction_sample_size_values <- c(400, 1000)
 response_misspecification_sample_size_values <- c(400)
 
-response_stress_niter <- 5000
-zero_prediction_niter <- 1000
-response_misspecification_niter <- 5000
+response_stress_niter <- as.integer(Sys.getenv("SMART_HM_RESPONSE_STRESS_NITER", "5000"))
+zero_prediction_niter <- as.integer(Sys.getenv("SMART_HM_ZERO_PREDICTION_NITER", "1000"))
+response_misspecification_niter <- as.integer(Sys.getenv("SMART_HM_MISSPECIFICATION_NITER", "5000"))
 response_progress_every <- max(1, floor(response_stress_niter / 10))
 zero_prediction_progress_every <- max(1, floor(zero_prediction_niter / 10))
 response_misspecification_progress_every <- max(1, floor(response_misspecification_niter / 10))
@@ -63,8 +67,8 @@ BLDEPPOS_prevalence <- 0.43
 BLDEPPOS_response_log_or <- log(2)
 
 stress_output_root <- file.path(
-  "GEE_Code/HM/Y0_Baseline/New_Surrogate_Results/Sim_Results_Cond",
-  "Stress_Tests"
+  Sys.getenv("SMART_HM_RESULTS_DIR", "results"),
+  "stress_tests"
 )
 zero_prediction_output_dir <- file.path(
   stress_output_root,
@@ -77,9 +81,8 @@ response_misspecification_output_dir <- file.path(
   paste0("niter_", response_misspecification_niter)
 )
 
-calibration_dir <- "GEE_Code/HM/Y0_Baseline/Data_Results_Cond_New_Surrogate/Data_Like_Calibration"
-design_params <- load_data_like_design_params(calibration_dir)
-Y0_ref <- load_data_like_Y0_ref(calibration_dir, default = 12)
+design_params <- simulation_design_params
+Y0_ref <- simulation_Y0_ref
 
 dtr_grid <- expand.grid(A1 = c(-1, 1), A2R = c(-1, 1), A2NR = c(-1, 1))
 

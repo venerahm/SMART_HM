@@ -1,3 +1,0 @@
-Data Density Plot. Overlaid density curves show the distribution of alcoholic drinks consumed over the last 30 days at months 0, 1, 2, and 4. Time points are distinguished by line type.
-Figure 1. Line graph of observed zero and positive outcome proportions at months 0, 1, 2, and 4.
-Figure 2. Two-panel forest plot of conditional g-computation DTR estimates at month 4. The first panel shows probability of zero outcome and the second shows mean count among positive outcomes; each DTR has a point estimate and 95% confidence interval.

@@ -1,93 +1,90 @@
-# Zero Inflated SMART
+# SMART_HM
 
-Publication repository for the conditional-first hurdle-model GEE analysis of
-zero-inflated SMART data.
+Simulation code for evaluating conditional-first hurdle-model estimators for
+zero-inflated sequential multiple assignment randomized trial (SMART) outcomes.
 
-The active manuscript workflow is the `Y0_Baseline` analysis, where baseline
-outcome `Y0` is used as an ANCOVA-like baseline covariate and dynamic treatment
-regime summaries are marginalized over the baseline `Y0` distribution.
-
-Most scripts assume they are run from the repository root so paths beginning
-with `GEE_Code/HM/...` resolve correctly.
+This repository is intentionally simulation-only. The original data application
+used participant-level M-COACH data that cannot be publicly shared, so private
+data-analysis scripts and generated application results are not included here.
+The public code instead defines a reproducible simulation design in
+`config/simulation_design.R`.
 
 ## Repository Structure
 
-- `GEE_Code/HM/`: hurdle-model GEE code for the HM application.
-- `GEE_Code/HM/Y0_Baseline/`: current conditional-first manuscript workflow.
-- `GEE_Code/HM/Y0_Baseline/Data_Results_Cond_New_Surrogate/`: selected current
-  data-application summaries, figures, and simulation calibration files.
-- `GEE_Code/HM/Y0_Baseline/New_Surrogate_Results/`: selected current simulation
-  summaries and manuscript figures.
-- `scripts/`: manifest validation and publication snapshot utilities.
+- `R/`: reusable functions for the conditional hurdle model, SMART data
+  generation, g-computation estimation, simulation summaries, and plotting.
+- `scripts/`: executable simulation drivers.
+- `config/`: public, non-identifying simulation design inputs.
+- `docs/`: notes for secondary simulation diagnostics.
+- `results/`: default location for generated simulation outputs. This folder
+  is ignored by git.
 
-## Current Workflow
+## Main Scripts
 
-Run these scripts from the repository root:
-
-1. `GEE_Code/HM/Y0_Baseline/HM_Data_Application_Conditional.R`
-   constructs the corrected surrogate monthly alcohol outcomes, fits the
-   conditional hurdle model to the data application, and writes current tables
-   and figures.
-2. `GEE_Code/HM/Y0_Baseline/Derive_Data_Like_Simulation_Values.R`
-   derives data-like calibration values used by the simulations.
-3. `GEE_Code/HM/Y0_Baseline/Manuscript_Simulation.R`
-   runs the primary manuscript simulation.
-4. `GEE_Code/HM/Y0_Baseline/Simulation_Stress_Tests.R`
-   runs stress-test, zero-prediction, and response-misspecification
-   simulations.
-
-The main helper files are:
-
-- `functions_HM_conditional.R`
-- `generateSMART_GEE_conditional.R`
-- `fit_gcomp_conditional.R`
-- `plot_conditional_results.R`
-- `simulation_wrapper_utils.R`
-
-## Publication Contents
-
-This repository keeps source code, documentation, selected summary CSV files,
-and final EPS figure sources. Large raw simulation outputs, local workspace
-files, and development archives are intentionally excluded from the publication
-snapshot.
-
-See `REQUIREMENTS.md` for R package requirements and the external data input
-paths needed to rerun the data application.
-
-Use the manifest to check the exact publication file set:
+Run scripts from the repository root so the relative `source()` calls resolve.
 
 ```bash
-Rscript scripts/validate_publication_manifest.R
+Rscript scripts/run_primary_simulation.R
+Rscript scripts/run_stress_tests.R
 ```
 
-To create a clean publication repository snapshot:
+The primary simulation writes to:
+
+```text
+results/primary_simulation/niter_<N>/
+```
+
+The stress-test script writes to:
+
+```text
+results/stress_tests/
+```
+
+## Quick Smoke Test
+
+The manuscript-scale simulations use many iterations. For a quick local check,
+override the iteration counts with environment variables:
 
 ```bash
-Rscript scripts/create_publication_snapshot.R /path/to/new/repo --init-git
+SMART_HM_NITER=1 Rscript scripts/run_primary_simulation.R
+SMART_HM_ZERO_PREDICTION_NITER=1 Rscript scripts/run_stress_tests.R
 ```
 
-Add `--include-optional` to include development-reference files listed as
-optional in `PUBLICATION_MANIFEST.tsv`. The snapshot script initializes git on
-branch `main` by default. To attach a GitHub remote at creation time, add:
+You can redirect all generated outputs with:
 
 ```bash
---remote-url=https://github.com/<user>/<repo>.git
+SMART_HM_RESULTS_DIR=/path/to/results Rscript scripts/run_primary_simulation.R
 ```
 
-To also create the initial local commit:
+## Simulation Design
 
-```bash
---commit-message="Initial publication-ready repository"
-```
+`config/simulation_design.R` defines the public design inputs used to translate
+interpretable response, zero-inflation, and positive-count settings into the
+conditional hurdle GLM parameters. These values are not participant-level data.
 
-## Cleanup Metadata
+The primary simulation evaluates dynamic treatment regimes of the form
+`d = (A1, A2R, A2NR)`, where `A2R` is the second-stage treatment for responders
+and `A2NR` is the second-stage treatment for nonresponders.
 
-- `PUBLICATION_CLEANUP_INVENTORY.md` documents which files and folders are
-  current, legacy/reference, or generated/local.
-- `PUBLICATION_MANIFEST.tsv` is the machine-checkable keep/archive/exclude
-  list used by the validation and snapshot scripts.
-- `RELEASE_CHECKLIST.md` gives the final validation, snapshot, commit, and push
-  steps for the publication repository.
+## Code Map
+
+- `R/conditional_hurdle_model.R`: link functions, zero-truncated Poisson
+  utilities, design matrices, and conversion from design inputs to conditional
+  hurdle-model parameters.
+- `R/simulate_smart_data.R`: SMART data generation under the conditional hurdle
+  model.
+- `R/fit_g_computation.R`: fitted conditional hurdle models and standardized
+  g-computation estimators for dynamic treatment regimes.
+- `R/plot_simulation_results.R`: manuscript-style summary plots.
+- `R/simulation_helpers.R`: shared wrappers for iteration fitting, diagnostics,
+  and summary calculations.
+- `scripts/run_primary_simulation.R`: primary manuscript simulation grid.
+- `scripts/run_stress_tests.R`: response-rate, zero-prediction, and
+  response-misspecification diagnostics.
+
+## Requirements
+
+See `REQUIREMENTS.md` for R package requirements.
 
 ## Code Origins
 
