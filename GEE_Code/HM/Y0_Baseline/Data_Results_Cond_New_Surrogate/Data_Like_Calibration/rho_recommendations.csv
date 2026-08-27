@@ -1,0 +1,7 @@
+quantity,empirical_value,closest_candidate_rho,note
+raw_count_exchangeable_rho,0.39311107107334975,0.3,Use as an exchangeable data-like rho candidate.
+raw_count_ar1_monthly_rho,0.6583816530377413,0.5,Use as an AR1 data-like monthly rho candidate.
+zero_indicator_exchangeable_rho,0.29691897246240856,0.3,Use as an exchangeable data-like rho candidate.
+zero_indicator_ar1_monthly_rho,0.5660178392364961,0.5,Use as an AR1 data-like monthly rho candidate.
+positive_count_exchangeable_rho,0.4205467144487697,0.5,Use as an exchangeable data-like rho candidate.
+positive_count_ar1_monthly_rho,0.6798848541190404,0.5,Use as an AR1 data-like monthly rho candidate.

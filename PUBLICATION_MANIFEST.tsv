@@ -1,0 +1,74 @@
+status	type	path	notes
+keep_required	file	README.md	Repository overview.
+keep_required	file	.gitignore	Publication repo ignore rules for generated/local artifacts.
+keep_required	file	RELEASE_CHECKLIST.md	Final validation and GitHub release checklist.
+keep_required	file	REQUIREMENTS.md	R package and external data-input requirements.
+keep_required	file	GEE_Code/HM/README.md	HM workflow overview.
+keep_required	file	GEE_Code/HM/Y0_Baseline/README.md	Current Y0-baseline conditional workflow documentation.
+keep_required	file	PUBLICATION_CLEANUP_INVENTORY.md	Cleanup map for current, legacy, and generated files.
+keep_required	file	PUBLICATION_MANIFEST.tsv	Machine-checkable publication file manifest.
+keep_required	file	scripts/validate_publication_manifest.R	Manifest and active-workflow validation utility.
+keep_required	file	scripts/create_publication_snapshot.R	Copy manifest-approved files into a clean publication directory.
+keep_required	file	GEE_Code/HM/Y0_Baseline/HM_Data_Application_Conditional.R	Current data-application driver.
+keep_required	file	GEE_Code/HM/Y0_Baseline/Derive_Data_Like_Simulation_Values.R	Current data-like calibration driver.
+keep_required	file	GEE_Code/HM/Y0_Baseline/Manuscript_Simulation.R	Current primary manuscript simulation driver.
+keep_required	file	GEE_Code/HM/Y0_Baseline/Simulation_Stress_Tests.R	Current stress-test and diagnostics simulation driver.
+keep_required	file	GEE_Code/HM/Y0_Baseline/Simulation_Stress_Tests_README.md	Stress-test run documentation.
+keep_required	file	GEE_Code/HM/Y0_Baseline/functions_HM_conditional.R	Current conditional hurdle helper functions.
+keep_required	file	GEE_Code/HM/Y0_Baseline/generateSMART_GEE_conditional.R	Current conditional SMART data generator.
+keep_required	file	GEE_Code/HM/Y0_Baseline/fit_gcomp_conditional.R	Current g-computation fitting/estimation utilities.
+keep_required	file	GEE_Code/HM/Y0_Baseline/plot_conditional_results.R	Current plotting helpers for simulation summaries.
+keep_required	file	GEE_Code/HM/Y0_Baseline/simulation_wrapper_utils.R	Current simulation wrapper utilities.
+keep_required	file	GEE_Code/HM/Y0_Baseline/Data_Results_Cond_New_Surrogate/README.md	Current data-result folder documentation.
+keep_required	file	GEE_Code/HM/Y0_Baseline/Data_Results_Cond_New_Surrogate/Outcome_Proportions_By_Time_Conditional.csv	Current data application outcome proportions.
+keep_required	file	GEE_Code/HM/Y0_Baseline/Data_Results_Cond_New_Surrogate/DTR_Estimates_Conditional_Month_4.csv	Current month-4 DTR estimates.
+keep_required	file	GEE_Code/HM/Y0_Baseline/Data_Results_Cond_New_Surrogate/DTR_Estimates_By_Model_Conditional_Month_4.csv	Current month-4 estimates by model component.
+keep_required	file	GEE_Code/HM/Y0_Baseline/Data_Results_Cond_New_Surrogate/DTR_Trajectories_Conditional_PostSplit.csv	Current post-split DTR trajectories.
+keep_required	file	GEE_Code/HM/Y0_Baseline/Data_Results_Cond_New_Surrogate/DTR_Positive_Outcome_Summary_Month_4.csv	Current positive-outcome summary.
+keep_required	file	GEE_Code/HM/Y0_Baseline/Data_Results_Cond_New_Surrogate/DTR_Positive_Outcome_Summary_By_Branch_Month_4.csv	Current positive-outcome summary by branch.
+keep_required	file	GEE_Code/HM/Y0_Baseline/Data_Results_Cond_New_Surrogate/DTR_Sample_Support_Month_4.csv	Current sample support summary.
+keep_required	file	GEE_Code/HM/Y0_Baseline/Data_Results_Cond_New_Surrogate/dtr_number_key.csv	DTR numbering key.
+keep_required	file	GEE_Code/HM/Y0_Baseline/Data_Results_Cond_New_Surrogate/figure_alt_text.txt	Alt text for current figures.
+keep_required	file	GEE_Code/HM/Y0_Baseline/Data_Results_Cond_New_Surrogate/Data_Like_Calibration/data_like_design_params.csv	Data-like design parameters.
+keep_required	file	GEE_Code/HM/Y0_Baseline/Data_Results_Cond_New_Surrogate/Data_Like_Calibration/data_like_design_check.csv	Data-like design checks.
+keep_required	file	GEE_Code/HM/Y0_Baseline/Data_Results_Cond_New_Surrogate/Data_Like_Calibration/scenario_calibration_values.csv	Scenario calibration values.
+keep_required	file	GEE_Code/HM/Y0_Baseline/Data_Results_Cond_New_Surrogate/Data_Like_Calibration/rho_recommendations.csv	Correlation recommendations.
+keep_required	file	GEE_Code/HM/Y0_Baseline/Data_Results_Cond_New_Surrogate/Data_Like_Calibration/one_part_zero_diagnostics.csv	One-part zero diagnostics.
+keep_required	file	GEE_Code/HM/Y0_Baseline/Data_Results_Cond_New_Surrogate/Data_Like_Calibration/y0_summary.csv	Baseline outcome summary.
+keep_required	file	GEE_Code/HM/Y0_Baseline/Data_Results_Cond_New_Surrogate/Data_Like_Calibration/response_by_A1.csv	Response summary by first-stage treatment.
+keep_required	file	GEE_Code/HM/Y0_Baseline/Data_Results_Cond_New_Surrogate/Data_Like_Calibration/zero_by_time.csv	Zero proportions by time.
+keep_required	file	GEE_Code/HM/Y0_Baseline/Data_Results_Cond_New_Surrogate/Data_Like_Calibration/zero_by_branch_time.csv	Zero proportions by branch and time.
+keep_required	file	GEE_Code/HM/Y0_Baseline/Data_Results_Cond_New_Surrogate/Data_Like_Calibration/positive_cell_sizes.csv	Positive cell-size diagnostics.
+keep_required	file	GEE_Code/HM/Y0_Baseline/Data_Results_Cond_New_Surrogate/Data_Like_Calibration/lag_correlations.csv	Lag-correlation diagnostics.
+keep_required	file	GEE_Code/HM/Y0_Baseline/Data_Results_Cond_New_Surrogate/figures/figure1_observed_zero_positive_proportions.eps	Publication figure 1 source.
+keep_required	file	GEE_Code/HM/Y0_Baseline/Data_Results_Cond_New_Surrogate/figures/figure2_dtr_estimates_month4.eps	Publication figure 2 source.
+keep_required	file	GEE_Code/HM/Y0_Baseline/Data_Results_Cond_New_Surrogate/figures/data_density_plot_conditional_biometrics.eps	Publication density figure source.
+keep_required	file	GEE_Code/HM/Y0_Baseline/New_Surrogate_Results/README.md	Current simulation-result folder documentation.
+keep_required	file	GEE_Code/HM/Y0_Baseline/New_Surrogate_Results/Sim_Results_Cond/Manuscript_Primary/niter_5000/bias_coverage_summary_manuscript_primary.csv	Primary manuscript simulation summary.
+keep_required	file	GEE_Code/HM/Y0_Baseline/New_Surrogate_Results/Sim_Results_Cond/Manuscript_Primary/niter_5000/scenario_grid_manuscript_primary.csv	Primary manuscript simulation scenario grid.
+keep_required	file	GEE_Code/HM/Y0_Baseline/New_Surrogate_Results/Sim_Results_Cond/Manuscript_Primary/niter_5000/scenario_design_inputs_manuscript_primary.csv	Primary manuscript simulation design inputs.
+keep_required	file	GEE_Code/HM/Y0_Baseline/New_Surrogate_Results/Sim_Results_Cond/Manuscript_Primary/niter_5000/scenario_design_checks_manuscript_primary.csv	Primary manuscript simulation design checks.
+keep_required	file	GEE_Code/HM/Y0_Baseline/New_Surrogate_Results/Sim_Results_Cond/Manuscript_Primary/niter_5000/scenario_parameters_manuscript_primary.csv	Primary manuscript simulation parameters.
+keep_required	file	GEE_Code/HM/Y0_Baseline/New_Surrogate_Results/Sim_Results_Cond/Manuscript_Primary/niter_5000/positive_cell_diagnostic_summary_manuscript_primary.csv	Primary manuscript positive-cell summary.
+keep_required	file	GEE_Code/HM/Y0_Baseline/New_Surrogate_Results/Sim_Results_Cond/Manuscript_Primary/niter_5000/plots/conditional_bias_coverage.eps	Primary manuscript simulation figure source.
+keep_optional	file	GEE_Code/HM/Y0_Baseline/Tests_conditional.R	Development smoke/checking script, not the current manuscript driver.
+external_archive	dir	GEE_Code/HM/Archive/	Large older HM archive; keep outside publication git history.
+external_archive	dir	GEE_Code/HM/Y0_Outcome/	Chapter 2 / older outcome-as-Y0 workflow.
+external_archive	dir	GEE_Code/HM/NB/	Negative-binomial extension/checking work.
+external_archive	dir	GEE_Code/HM/Code_Checks/	Validation and method-comparison work.
+external_archive	dir	GLMM_Code/	Reference GLMM code from earlier development.
+external_archive	dir	Batch/	Cluster submission scripts.
+external_archive	dir	logs/	Run logs.
+external_archive	dir	GEE_Code/HM/Y0_Baseline/Projection/	Older marginal projection workflow.
+external_archive	dir	GEE_Code/HM/Y0_Baseline/Archive/	Older Y0-baseline archive.
+external_archive	dir	GEE_Code/HM/Y0_Baseline/Sim_Results/	Legacy generated simulation outputs.
+external_archive	dir	GEE_Code/HM/Y0_Baseline/Sim_Results_Cond/	Legacy generated conditional simulation outputs.
+exclude_generated	file	.Rhistory	Local R history.
+exclude_generated	file	.RData	Local R workspace.
+exclude_generated	file	.RDataTmp	Local R temporary workspace.
+exclude_generated	file	.RDataTmp1	Local R temporary workspace.
+exclude_generated	dir	.Rproj.user/	Local RStudio project state.
+exclude_generated	pattern	*.aux	LaTeX auxiliary files.
+exclude_generated	pattern	*.log	Log files.
+exclude_generated	pattern	*.out	Cluster or shell output logs.
+exclude_generated	pattern	.DS_Store	macOS metadata files.

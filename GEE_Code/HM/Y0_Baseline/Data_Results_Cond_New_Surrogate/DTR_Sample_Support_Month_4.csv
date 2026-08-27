@@ -1,0 +1,9 @@
+DTR_Number,DTR_label_int,DTR,n_responder_cell,n_nonresponder_cell,n_consistent_month4,n_positive_responder_cell,n_positive_nonresponder_cell,n_positive_consistent_month4
+DTR 1,"TM,RB,TM","-1,-1,-1",36,53,89,24,33,57
+DTR 2,"TM,RB,HC","-1,-1,1",36,46,82,24,34,58
+DTR 3,"TM,TM,TM","-1,1,-1",40,53,93,24,33,57
+DTR 4,"TM,TM,HC","-1,1,1",40,46,86,24,34,58
+DTR 5,"HC,RB,HC","1,-1,-1",41,45,86,21,34,55
+DTR 6,"HC,RB,HC+","1,-1,1",41,53,94,21,35,56
+DTR 7,"HC,HC,HC","1,1,-1",36,45,81,16,34,50
+DTR 8,"HC,HC,HC+","1,1,1",36,53,89,16,35,51

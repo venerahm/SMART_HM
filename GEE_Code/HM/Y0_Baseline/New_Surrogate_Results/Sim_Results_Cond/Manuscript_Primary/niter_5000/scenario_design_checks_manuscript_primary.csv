@@ -1,0 +1,161 @@
+"quantity","value","scenario_id","scenario_label","scenario_family","ZI","corstr","rho","zero_probability","Y0_ref","time_ref"
+"response_prob_A1_minus",0.483913698706025,"A1_ZI_37_exchangeable_rho_0.3","A1","A. Correlated outcomes, rho 0.3",37,"exchangeable",0.3,0.37,12,4
+"response_prob_A1_plus",0.475738313284774,"A1_ZI_37_exchangeable_rho_0.3","A1","A. Correlated outcomes, rho 0.3",37,"exchangeable",0.3,0.37,12,4
+"pre_positive_prob_A1_minus",0.63,"A1_ZI_37_exchangeable_rho_0.3","A1","A. Correlated outcomes, rho 0.3",37,"exchangeable",0.3,0.37,12,4
+"pre_positive_prob_A1_plus",0.636353446051151,"A1_ZI_37_exchangeable_rho_0.3","A1","A. Correlated outcomes, rho 0.3",37,"exchangeable",0.3,0.37,12,4
+"pre_zero_prob_A1_minus",0.37,"A1_ZI_37_exchangeable_rho_0.3","A1","A. Correlated outcomes, rho 0.3",37,"exchangeable",0.3,0.37,12,4
+"pre_zero_prob_A1_plus",0.363646553948849,"A1_ZI_37_exchangeable_rho_0.3","A1","A. Correlated outcomes, rho 0.3",37,"exchangeable",0.3,0.37,12,4
+"responder_positive_prob_A2_minus",0.63,"A1_ZI_37_exchangeable_rho_0.3","A1","A. Correlated outcomes, rho 0.3",37,"exchangeable",0.3,0.37,12,4
+"responder_positive_prob_A2_plus",0.593675202177426,"A1_ZI_37_exchangeable_rho_0.3","A1","A. Correlated outcomes, rho 0.3",37,"exchangeable",0.3,0.37,12,4
+"responder_zero_prob_A2_minus",0.37,"A1_ZI_37_exchangeable_rho_0.3","A1","A. Correlated outcomes, rho 0.3",37,"exchangeable",0.3,0.37,12,4
+"responder_zero_prob_A2_plus",0.406324797822574,"A1_ZI_37_exchangeable_rho_0.3","A1","A. Correlated outcomes, rho 0.3",37,"exchangeable",0.3,0.37,12,4
+"nonresponder_positive_prob_A2_minus",0.700359938281998,"A1_ZI_37_exchangeable_rho_0.3","A1","A. Correlated outcomes, rho 0.3",37,"exchangeable",0.3,0.37,12,4
+"nonresponder_positive_prob_A2_plus",0.720991562496349,"A1_ZI_37_exchangeable_rho_0.3","A1","A. Correlated outcomes, rho 0.3",37,"exchangeable",0.3,0.37,12,4
+"nonresponder_zero_prob_A2_minus",0.299640061718002,"A1_ZI_37_exchangeable_rho_0.3","A1","A. Correlated outcomes, rho 0.3",37,"exchangeable",0.3,0.37,12,4
+"nonresponder_zero_prob_A2_plus",0.279008437503651,"A1_ZI_37_exchangeable_rho_0.3","A1","A. Correlated outcomes, rho 0.3",37,"exchangeable",0.3,0.37,12,4
+"responder_positive_prob_A1_minus_at_A2_minus",0.667063920082618,"A1_ZI_37_exchangeable_rho_0.3","A1","A. Correlated outcomes, rho 0.3",37,"exchangeable",0.3,0.37,12,4
+"responder_positive_prob_A1_plus_at_A2_minus",0.591337738017035,"A1_ZI_37_exchangeable_rho_0.3","A1","A. Correlated outcomes, rho 0.3",37,"exchangeable",0.3,0.37,12,4
+"responder_zero_prob_A1_minus_at_A2_minus",0.332936079917382,"A1_ZI_37_exchangeable_rho_0.3","A1","A. Correlated outcomes, rho 0.3",37,"exchangeable",0.3,0.37,12,4
+"responder_zero_prob_A1_plus_at_A2_minus",0.408662261982965,"A1_ZI_37_exchangeable_rho_0.3","A1","A. Correlated outcomes, rho 0.3",37,"exchangeable",0.3,0.37,12,4
+"nonresponder_positive_prob_A1_minus_at_A2_minus",0.696920774417928,"A1_ZI_37_exchangeable_rho_0.3","A1","A. Correlated outcomes, rho 0.3",37,"exchangeable",0.3,0.37,12,4
+"nonresponder_positive_prob_A1_plus_at_A2_minus",0.70377666421938,"A1_ZI_37_exchangeable_rho_0.3","A1","A. Correlated outcomes, rho 0.3",37,"exchangeable",0.3,0.37,12,4
+"nonresponder_zero_prob_A1_minus_at_A2_minus",0.303079225582072,"A1_ZI_37_exchangeable_rho_0.3","A1","A. Correlated outcomes, rho 0.3",37,"exchangeable",0.3,0.37,12,4
+"nonresponder_zero_prob_A1_plus_at_A2_minus",0.29622333578062,"A1_ZI_37_exchangeable_rho_0.3","A1","A. Correlated outcomes, rho 0.3",37,"exchangeable",0.3,0.37,12,4
+"pre_positive_count_mean_A1_minus",14.7531925838444,"A1_ZI_37_exchangeable_rho_0.3","A1","A. Correlated outcomes, rho 0.3",37,"exchangeable",0.3,0.37,12,4
+"pre_positive_count_mean_A1_plus",17.0043756078404,"A1_ZI_37_exchangeable_rho_0.3","A1","A. Correlated outcomes, rho 0.3",37,"exchangeable",0.3,0.37,12,4
+"responder_positive_count_mean_A2_minus",17.2624276208118,"A1_ZI_37_exchangeable_rho_0.3","A1","A. Correlated outcomes, rho 0.3",37,"exchangeable",0.3,0.37,12,4
+"responder_positive_count_mean_A2_plus",20.7428842864407,"A1_ZI_37_exchangeable_rho_0.3","A1","A. Correlated outcomes, rho 0.3",37,"exchangeable",0.3,0.37,12,4
+"nonresponder_positive_count_mean_A2_minus",30.267594459092,"A1_ZI_37_exchangeable_rho_0.3","A1","A. Correlated outcomes, rho 0.3",37,"exchangeable",0.3,0.37,12,4
+"nonresponder_positive_count_mean_A2_plus",22.7772194562899,"A1_ZI_37_exchangeable_rho_0.3","A1","A. Correlated outcomes, rho 0.3",37,"exchangeable",0.3,0.37,12,4
+"responder_positive_count_mean_A1_minus_at_A2_minus",16.7168331418996,"A1_ZI_37_exchangeable_rho_0.3","A1","A. Correlated outcomes, rho 0.3",37,"exchangeable",0.3,0.37,12,4
+"responder_positive_count_mean_A1_plus_at_A2_minus",17.8258290689794,"A1_ZI_37_exchangeable_rho_0.3","A1","A. Correlated outcomes, rho 0.3",37,"exchangeable",0.3,0.37,12,4
+"nonresponder_positive_count_mean_A1_minus_at_A2_minus",26.8600870826065,"A1_ZI_37_exchangeable_rho_0.3","A1","A. Correlated outcomes, rho 0.3",37,"exchangeable",0.3,0.37,12,4
+"nonresponder_positive_count_mean_A1_plus_at_A2_minus",34.107382880942,"A1_ZI_37_exchangeable_rho_0.3","A1","A. Correlated outcomes, rho 0.3",37,"exchangeable",0.3,0.37,12,4
+"response_prob_A1_minus",0.483913698706025,"A2_ZI_37_ar1_rho_0.3","A2","A. Correlated outcomes, rho 0.3",37,"ar1",0.3,0.37,12,4
+"response_prob_A1_plus",0.475738313284774,"A2_ZI_37_ar1_rho_0.3","A2","A. Correlated outcomes, rho 0.3",37,"ar1",0.3,0.37,12,4
+"pre_positive_prob_A1_minus",0.63,"A2_ZI_37_ar1_rho_0.3","A2","A. Correlated outcomes, rho 0.3",37,"ar1",0.3,0.37,12,4
+"pre_positive_prob_A1_plus",0.636353446051151,"A2_ZI_37_ar1_rho_0.3","A2","A. Correlated outcomes, rho 0.3",37,"ar1",0.3,0.37,12,4
+"pre_zero_prob_A1_minus",0.37,"A2_ZI_37_ar1_rho_0.3","A2","A. Correlated outcomes, rho 0.3",37,"ar1",0.3,0.37,12,4
+"pre_zero_prob_A1_plus",0.363646553948849,"A2_ZI_37_ar1_rho_0.3","A2","A. Correlated outcomes, rho 0.3",37,"ar1",0.3,0.37,12,4
+"responder_positive_prob_A2_minus",0.63,"A2_ZI_37_ar1_rho_0.3","A2","A. Correlated outcomes, rho 0.3",37,"ar1",0.3,0.37,12,4
+"responder_positive_prob_A2_plus",0.593675202177426,"A2_ZI_37_ar1_rho_0.3","A2","A. Correlated outcomes, rho 0.3",37,"ar1",0.3,0.37,12,4
+"responder_zero_prob_A2_minus",0.37,"A2_ZI_37_ar1_rho_0.3","A2","A. Correlated outcomes, rho 0.3",37,"ar1",0.3,0.37,12,4
+"responder_zero_prob_A2_plus",0.406324797822574,"A2_ZI_37_ar1_rho_0.3","A2","A. Correlated outcomes, rho 0.3",37,"ar1",0.3,0.37,12,4
+"nonresponder_positive_prob_A2_minus",0.700359938281998,"A2_ZI_37_ar1_rho_0.3","A2","A. Correlated outcomes, rho 0.3",37,"ar1",0.3,0.37,12,4
+"nonresponder_positive_prob_A2_plus",0.720991562496349,"A2_ZI_37_ar1_rho_0.3","A2","A. Correlated outcomes, rho 0.3",37,"ar1",0.3,0.37,12,4
+"nonresponder_zero_prob_A2_minus",0.299640061718002,"A2_ZI_37_ar1_rho_0.3","A2","A. Correlated outcomes, rho 0.3",37,"ar1",0.3,0.37,12,4
+"nonresponder_zero_prob_A2_plus",0.279008437503651,"A2_ZI_37_ar1_rho_0.3","A2","A. Correlated outcomes, rho 0.3",37,"ar1",0.3,0.37,12,4
+"responder_positive_prob_A1_minus_at_A2_minus",0.667063920082618,"A2_ZI_37_ar1_rho_0.3","A2","A. Correlated outcomes, rho 0.3",37,"ar1",0.3,0.37,12,4
+"responder_positive_prob_A1_plus_at_A2_minus",0.591337738017035,"A2_ZI_37_ar1_rho_0.3","A2","A. Correlated outcomes, rho 0.3",37,"ar1",0.3,0.37,12,4
+"responder_zero_prob_A1_minus_at_A2_minus",0.332936079917382,"A2_ZI_37_ar1_rho_0.3","A2","A. Correlated outcomes, rho 0.3",37,"ar1",0.3,0.37,12,4
+"responder_zero_prob_A1_plus_at_A2_minus",0.408662261982965,"A2_ZI_37_ar1_rho_0.3","A2","A. Correlated outcomes, rho 0.3",37,"ar1",0.3,0.37,12,4
+"nonresponder_positive_prob_A1_minus_at_A2_minus",0.696920774417928,"A2_ZI_37_ar1_rho_0.3","A2","A. Correlated outcomes, rho 0.3",37,"ar1",0.3,0.37,12,4
+"nonresponder_positive_prob_A1_plus_at_A2_minus",0.70377666421938,"A2_ZI_37_ar1_rho_0.3","A2","A. Correlated outcomes, rho 0.3",37,"ar1",0.3,0.37,12,4
+"nonresponder_zero_prob_A1_minus_at_A2_minus",0.303079225582072,"A2_ZI_37_ar1_rho_0.3","A2","A. Correlated outcomes, rho 0.3",37,"ar1",0.3,0.37,12,4
+"nonresponder_zero_prob_A1_plus_at_A2_minus",0.29622333578062,"A2_ZI_37_ar1_rho_0.3","A2","A. Correlated outcomes, rho 0.3",37,"ar1",0.3,0.37,12,4
+"pre_positive_count_mean_A1_minus",14.7531925838444,"A2_ZI_37_ar1_rho_0.3","A2","A. Correlated outcomes, rho 0.3",37,"ar1",0.3,0.37,12,4
+"pre_positive_count_mean_A1_plus",17.0043756078404,"A2_ZI_37_ar1_rho_0.3","A2","A. Correlated outcomes, rho 0.3",37,"ar1",0.3,0.37,12,4
+"responder_positive_count_mean_A2_minus",17.2624276208118,"A2_ZI_37_ar1_rho_0.3","A2","A. Correlated outcomes, rho 0.3",37,"ar1",0.3,0.37,12,4
+"responder_positive_count_mean_A2_plus",20.7428842864407,"A2_ZI_37_ar1_rho_0.3","A2","A. Correlated outcomes, rho 0.3",37,"ar1",0.3,0.37,12,4
+"nonresponder_positive_count_mean_A2_minus",30.267594459092,"A2_ZI_37_ar1_rho_0.3","A2","A. Correlated outcomes, rho 0.3",37,"ar1",0.3,0.37,12,4
+"nonresponder_positive_count_mean_A2_plus",22.7772194562899,"A2_ZI_37_ar1_rho_0.3","A2","A. Correlated outcomes, rho 0.3",37,"ar1",0.3,0.37,12,4
+"responder_positive_count_mean_A1_minus_at_A2_minus",16.7168331418996,"A2_ZI_37_ar1_rho_0.3","A2","A. Correlated outcomes, rho 0.3",37,"ar1",0.3,0.37,12,4
+"responder_positive_count_mean_A1_plus_at_A2_minus",17.8258290689794,"A2_ZI_37_ar1_rho_0.3","A2","A. Correlated outcomes, rho 0.3",37,"ar1",0.3,0.37,12,4
+"nonresponder_positive_count_mean_A1_minus_at_A2_minus",26.8600870826065,"A2_ZI_37_ar1_rho_0.3","A2","A. Correlated outcomes, rho 0.3",37,"ar1",0.3,0.37,12,4
+"nonresponder_positive_count_mean_A1_plus_at_A2_minus",34.107382880942,"A2_ZI_37_ar1_rho_0.3","A2","A. Correlated outcomes, rho 0.3",37,"ar1",0.3,0.37,12,4
+"response_prob_A1_minus",0.483913698706025,"B1_ZI_37_exchangeable_rho_0.5","B1","B. Correlated outcomes, rho 0.5",37,"exchangeable",0.5,0.37,12,4
+"response_prob_A1_plus",0.475738313284774,"B1_ZI_37_exchangeable_rho_0.5","B1","B. Correlated outcomes, rho 0.5",37,"exchangeable",0.5,0.37,12,4
+"pre_positive_prob_A1_minus",0.63,"B1_ZI_37_exchangeable_rho_0.5","B1","B. Correlated outcomes, rho 0.5",37,"exchangeable",0.5,0.37,12,4
+"pre_positive_prob_A1_plus",0.636353446051151,"B1_ZI_37_exchangeable_rho_0.5","B1","B. Correlated outcomes, rho 0.5",37,"exchangeable",0.5,0.37,12,4
+"pre_zero_prob_A1_minus",0.37,"B1_ZI_37_exchangeable_rho_0.5","B1","B. Correlated outcomes, rho 0.5",37,"exchangeable",0.5,0.37,12,4
+"pre_zero_prob_A1_plus",0.363646553948849,"B1_ZI_37_exchangeable_rho_0.5","B1","B. Correlated outcomes, rho 0.5",37,"exchangeable",0.5,0.37,12,4
+"responder_positive_prob_A2_minus",0.63,"B1_ZI_37_exchangeable_rho_0.5","B1","B. Correlated outcomes, rho 0.5",37,"exchangeable",0.5,0.37,12,4
+"responder_positive_prob_A2_plus",0.593675202177426,"B1_ZI_37_exchangeable_rho_0.5","B1","B. Correlated outcomes, rho 0.5",37,"exchangeable",0.5,0.37,12,4
+"responder_zero_prob_A2_minus",0.37,"B1_ZI_37_exchangeable_rho_0.5","B1","B. Correlated outcomes, rho 0.5",37,"exchangeable",0.5,0.37,12,4
+"responder_zero_prob_A2_plus",0.406324797822574,"B1_ZI_37_exchangeable_rho_0.5","B1","B. Correlated outcomes, rho 0.5",37,"exchangeable",0.5,0.37,12,4
+"nonresponder_positive_prob_A2_minus",0.700359938281998,"B1_ZI_37_exchangeable_rho_0.5","B1","B. Correlated outcomes, rho 0.5",37,"exchangeable",0.5,0.37,12,4
+"nonresponder_positive_prob_A2_plus",0.720991562496349,"B1_ZI_37_exchangeable_rho_0.5","B1","B. Correlated outcomes, rho 0.5",37,"exchangeable",0.5,0.37,12,4
+"nonresponder_zero_prob_A2_minus",0.299640061718002,"B1_ZI_37_exchangeable_rho_0.5","B1","B. Correlated outcomes, rho 0.5",37,"exchangeable",0.5,0.37,12,4
+"nonresponder_zero_prob_A2_plus",0.279008437503651,"B1_ZI_37_exchangeable_rho_0.5","B1","B. Correlated outcomes, rho 0.5",37,"exchangeable",0.5,0.37,12,4
+"responder_positive_prob_A1_minus_at_A2_minus",0.667063920082618,"B1_ZI_37_exchangeable_rho_0.5","B1","B. Correlated outcomes, rho 0.5",37,"exchangeable",0.5,0.37,12,4
+"responder_positive_prob_A1_plus_at_A2_minus",0.591337738017035,"B1_ZI_37_exchangeable_rho_0.5","B1","B. Correlated outcomes, rho 0.5",37,"exchangeable",0.5,0.37,12,4
+"responder_zero_prob_A1_minus_at_A2_minus",0.332936079917382,"B1_ZI_37_exchangeable_rho_0.5","B1","B. Correlated outcomes, rho 0.5",37,"exchangeable",0.5,0.37,12,4
+"responder_zero_prob_A1_plus_at_A2_minus",0.408662261982965,"B1_ZI_37_exchangeable_rho_0.5","B1","B. Correlated outcomes, rho 0.5",37,"exchangeable",0.5,0.37,12,4
+"nonresponder_positive_prob_A1_minus_at_A2_minus",0.696920774417928,"B1_ZI_37_exchangeable_rho_0.5","B1","B. Correlated outcomes, rho 0.5",37,"exchangeable",0.5,0.37,12,4
+"nonresponder_positive_prob_A1_plus_at_A2_minus",0.70377666421938,"B1_ZI_37_exchangeable_rho_0.5","B1","B. Correlated outcomes, rho 0.5",37,"exchangeable",0.5,0.37,12,4
+"nonresponder_zero_prob_A1_minus_at_A2_minus",0.303079225582072,"B1_ZI_37_exchangeable_rho_0.5","B1","B. Correlated outcomes, rho 0.5",37,"exchangeable",0.5,0.37,12,4
+"nonresponder_zero_prob_A1_plus_at_A2_minus",0.29622333578062,"B1_ZI_37_exchangeable_rho_0.5","B1","B. Correlated outcomes, rho 0.5",37,"exchangeable",0.5,0.37,12,4
+"pre_positive_count_mean_A1_minus",14.7531925838444,"B1_ZI_37_exchangeable_rho_0.5","B1","B. Correlated outcomes, rho 0.5",37,"exchangeable",0.5,0.37,12,4
+"pre_positive_count_mean_A1_plus",17.0043756078404,"B1_ZI_37_exchangeable_rho_0.5","B1","B. Correlated outcomes, rho 0.5",37,"exchangeable",0.5,0.37,12,4
+"responder_positive_count_mean_A2_minus",17.2624276208118,"B1_ZI_37_exchangeable_rho_0.5","B1","B. Correlated outcomes, rho 0.5",37,"exchangeable",0.5,0.37,12,4
+"responder_positive_count_mean_A2_plus",20.7428842864407,"B1_ZI_37_exchangeable_rho_0.5","B1","B. Correlated outcomes, rho 0.5",37,"exchangeable",0.5,0.37,12,4
+"nonresponder_positive_count_mean_A2_minus",30.267594459092,"B1_ZI_37_exchangeable_rho_0.5","B1","B. Correlated outcomes, rho 0.5",37,"exchangeable",0.5,0.37,12,4
+"nonresponder_positive_count_mean_A2_plus",22.7772194562899,"B1_ZI_37_exchangeable_rho_0.5","B1","B. Correlated outcomes, rho 0.5",37,"exchangeable",0.5,0.37,12,4
+"responder_positive_count_mean_A1_minus_at_A2_minus",16.7168331418996,"B1_ZI_37_exchangeable_rho_0.5","B1","B. Correlated outcomes, rho 0.5",37,"exchangeable",0.5,0.37,12,4
+"responder_positive_count_mean_A1_plus_at_A2_minus",17.8258290689794,"B1_ZI_37_exchangeable_rho_0.5","B1","B. Correlated outcomes, rho 0.5",37,"exchangeable",0.5,0.37,12,4
+"nonresponder_positive_count_mean_A1_minus_at_A2_minus",26.8600870826065,"B1_ZI_37_exchangeable_rho_0.5","B1","B. Correlated outcomes, rho 0.5",37,"exchangeable",0.5,0.37,12,4
+"nonresponder_positive_count_mean_A1_plus_at_A2_minus",34.107382880942,"B1_ZI_37_exchangeable_rho_0.5","B1","B. Correlated outcomes, rho 0.5",37,"exchangeable",0.5,0.37,12,4
+"response_prob_A1_minus",0.483913698706025,"B2_ZI_37_ar1_rho_0.5","B2","B. Correlated outcomes, rho 0.5",37,"ar1",0.5,0.37,12,4
+"response_prob_A1_plus",0.475738313284774,"B2_ZI_37_ar1_rho_0.5","B2","B. Correlated outcomes, rho 0.5",37,"ar1",0.5,0.37,12,4
+"pre_positive_prob_A1_minus",0.63,"B2_ZI_37_ar1_rho_0.5","B2","B. Correlated outcomes, rho 0.5",37,"ar1",0.5,0.37,12,4
+"pre_positive_prob_A1_plus",0.636353446051151,"B2_ZI_37_ar1_rho_0.5","B2","B. Correlated outcomes, rho 0.5",37,"ar1",0.5,0.37,12,4
+"pre_zero_prob_A1_minus",0.37,"B2_ZI_37_ar1_rho_0.5","B2","B. Correlated outcomes, rho 0.5",37,"ar1",0.5,0.37,12,4
+"pre_zero_prob_A1_plus",0.363646553948849,"B2_ZI_37_ar1_rho_0.5","B2","B. Correlated outcomes, rho 0.5",37,"ar1",0.5,0.37,12,4
+"responder_positive_prob_A2_minus",0.63,"B2_ZI_37_ar1_rho_0.5","B2","B. Correlated outcomes, rho 0.5",37,"ar1",0.5,0.37,12,4
+"responder_positive_prob_A2_plus",0.593675202177426,"B2_ZI_37_ar1_rho_0.5","B2","B. Correlated outcomes, rho 0.5",37,"ar1",0.5,0.37,12,4
+"responder_zero_prob_A2_minus",0.37,"B2_ZI_37_ar1_rho_0.5","B2","B. Correlated outcomes, rho 0.5",37,"ar1",0.5,0.37,12,4
+"responder_zero_prob_A2_plus",0.406324797822574,"B2_ZI_37_ar1_rho_0.5","B2","B. Correlated outcomes, rho 0.5",37,"ar1",0.5,0.37,12,4
+"nonresponder_positive_prob_A2_minus",0.700359938281998,"B2_ZI_37_ar1_rho_0.5","B2","B. Correlated outcomes, rho 0.5",37,"ar1",0.5,0.37,12,4
+"nonresponder_positive_prob_A2_plus",0.720991562496349,"B2_ZI_37_ar1_rho_0.5","B2","B. Correlated outcomes, rho 0.5",37,"ar1",0.5,0.37,12,4
+"nonresponder_zero_prob_A2_minus",0.299640061718002,"B2_ZI_37_ar1_rho_0.5","B2","B. Correlated outcomes, rho 0.5",37,"ar1",0.5,0.37,12,4
+"nonresponder_zero_prob_A2_plus",0.279008437503651,"B2_ZI_37_ar1_rho_0.5","B2","B. Correlated outcomes, rho 0.5",37,"ar1",0.5,0.37,12,4
+"responder_positive_prob_A1_minus_at_A2_minus",0.667063920082618,"B2_ZI_37_ar1_rho_0.5","B2","B. Correlated outcomes, rho 0.5",37,"ar1",0.5,0.37,12,4
+"responder_positive_prob_A1_plus_at_A2_minus",0.591337738017035,"B2_ZI_37_ar1_rho_0.5","B2","B. Correlated outcomes, rho 0.5",37,"ar1",0.5,0.37,12,4
+"responder_zero_prob_A1_minus_at_A2_minus",0.332936079917382,"B2_ZI_37_ar1_rho_0.5","B2","B. Correlated outcomes, rho 0.5",37,"ar1",0.5,0.37,12,4
+"responder_zero_prob_A1_plus_at_A2_minus",0.408662261982965,"B2_ZI_37_ar1_rho_0.5","B2","B. Correlated outcomes, rho 0.5",37,"ar1",0.5,0.37,12,4
+"nonresponder_positive_prob_A1_minus_at_A2_minus",0.696920774417928,"B2_ZI_37_ar1_rho_0.5","B2","B. Correlated outcomes, rho 0.5",37,"ar1",0.5,0.37,12,4
+"nonresponder_positive_prob_A1_plus_at_A2_minus",0.70377666421938,"B2_ZI_37_ar1_rho_0.5","B2","B. Correlated outcomes, rho 0.5",37,"ar1",0.5,0.37,12,4
+"nonresponder_zero_prob_A1_minus_at_A2_minus",0.303079225582072,"B2_ZI_37_ar1_rho_0.5","B2","B. Correlated outcomes, rho 0.5",37,"ar1",0.5,0.37,12,4
+"nonresponder_zero_prob_A1_plus_at_A2_minus",0.29622333578062,"B2_ZI_37_ar1_rho_0.5","B2","B. Correlated outcomes, rho 0.5",37,"ar1",0.5,0.37,12,4
+"pre_positive_count_mean_A1_minus",14.7531925838444,"B2_ZI_37_ar1_rho_0.5","B2","B. Correlated outcomes, rho 0.5",37,"ar1",0.5,0.37,12,4
+"pre_positive_count_mean_A1_plus",17.0043756078404,"B2_ZI_37_ar1_rho_0.5","B2","B. Correlated outcomes, rho 0.5",37,"ar1",0.5,0.37,12,4
+"responder_positive_count_mean_A2_minus",17.2624276208118,"B2_ZI_37_ar1_rho_0.5","B2","B. Correlated outcomes, rho 0.5",37,"ar1",0.5,0.37,12,4
+"responder_positive_count_mean_A2_plus",20.7428842864407,"B2_ZI_37_ar1_rho_0.5","B2","B. Correlated outcomes, rho 0.5",37,"ar1",0.5,0.37,12,4
+"nonresponder_positive_count_mean_A2_minus",30.267594459092,"B2_ZI_37_ar1_rho_0.5","B2","B. Correlated outcomes, rho 0.5",37,"ar1",0.5,0.37,12,4
+"nonresponder_positive_count_mean_A2_plus",22.7772194562899,"B2_ZI_37_ar1_rho_0.5","B2","B. Correlated outcomes, rho 0.5",37,"ar1",0.5,0.37,12,4
+"responder_positive_count_mean_A1_minus_at_A2_minus",16.7168331418996,"B2_ZI_37_ar1_rho_0.5","B2","B. Correlated outcomes, rho 0.5",37,"ar1",0.5,0.37,12,4
+"responder_positive_count_mean_A1_plus_at_A2_minus",17.8258290689794,"B2_ZI_37_ar1_rho_0.5","B2","B. Correlated outcomes, rho 0.5",37,"ar1",0.5,0.37,12,4
+"nonresponder_positive_count_mean_A1_minus_at_A2_minus",26.8600870826065,"B2_ZI_37_ar1_rho_0.5","B2","B. Correlated outcomes, rho 0.5",37,"ar1",0.5,0.37,12,4
+"nonresponder_positive_count_mean_A1_plus_at_A2_minus",34.107382880942,"B2_ZI_37_ar1_rho_0.5","B2","B. Correlated outcomes, rho 0.5",37,"ar1",0.5,0.37,12,4
+"response_prob_A1_minus",0.483913698706025,"C1_ZI_37_independence_rho_0","C1","C. Independent outcomes",37,"independence",0,0.37,12,4
+"response_prob_A1_plus",0.475738313284774,"C1_ZI_37_independence_rho_0","C1","C. Independent outcomes",37,"independence",0,0.37,12,4
+"pre_positive_prob_A1_minus",0.63,"C1_ZI_37_independence_rho_0","C1","C. Independent outcomes",37,"independence",0,0.37,12,4
+"pre_positive_prob_A1_plus",0.636353446051151,"C1_ZI_37_independence_rho_0","C1","C. Independent outcomes",37,"independence",0,0.37,12,4
+"pre_zero_prob_A1_minus",0.37,"C1_ZI_37_independence_rho_0","C1","C. Independent outcomes",37,"independence",0,0.37,12,4
+"pre_zero_prob_A1_plus",0.363646553948849,"C1_ZI_37_independence_rho_0","C1","C. Independent outcomes",37,"independence",0,0.37,12,4
+"responder_positive_prob_A2_minus",0.63,"C1_ZI_37_independence_rho_0","C1","C. Independent outcomes",37,"independence",0,0.37,12,4
+"responder_positive_prob_A2_plus",0.593675202177426,"C1_ZI_37_independence_rho_0","C1","C. Independent outcomes",37,"independence",0,0.37,12,4
+"responder_zero_prob_A2_minus",0.37,"C1_ZI_37_independence_rho_0","C1","C. Independent outcomes",37,"independence",0,0.37,12,4
+"responder_zero_prob_A2_plus",0.406324797822574,"C1_ZI_37_independence_rho_0","C1","C. Independent outcomes",37,"independence",0,0.37,12,4
+"nonresponder_positive_prob_A2_minus",0.700359938281998,"C1_ZI_37_independence_rho_0","C1","C. Independent outcomes",37,"independence",0,0.37,12,4
+"nonresponder_positive_prob_A2_plus",0.720991562496349,"C1_ZI_37_independence_rho_0","C1","C. Independent outcomes",37,"independence",0,0.37,12,4
+"nonresponder_zero_prob_A2_minus",0.299640061718002,"C1_ZI_37_independence_rho_0","C1","C. Independent outcomes",37,"independence",0,0.37,12,4
+"nonresponder_zero_prob_A2_plus",0.279008437503651,"C1_ZI_37_independence_rho_0","C1","C. Independent outcomes",37,"independence",0,0.37,12,4
+"responder_positive_prob_A1_minus_at_A2_minus",0.667063920082618,"C1_ZI_37_independence_rho_0","C1","C. Independent outcomes",37,"independence",0,0.37,12,4
+"responder_positive_prob_A1_plus_at_A2_minus",0.591337738017035,"C1_ZI_37_independence_rho_0","C1","C. Independent outcomes",37,"independence",0,0.37,12,4
+"responder_zero_prob_A1_minus_at_A2_minus",0.332936079917382,"C1_ZI_37_independence_rho_0","C1","C. Independent outcomes",37,"independence",0,0.37,12,4
+"responder_zero_prob_A1_plus_at_A2_minus",0.408662261982965,"C1_ZI_37_independence_rho_0","C1","C. Independent outcomes",37,"independence",0,0.37,12,4
+"nonresponder_positive_prob_A1_minus_at_A2_minus",0.696920774417928,"C1_ZI_37_independence_rho_0","C1","C. Independent outcomes",37,"independence",0,0.37,12,4
+"nonresponder_positive_prob_A1_plus_at_A2_minus",0.70377666421938,"C1_ZI_37_independence_rho_0","C1","C. Independent outcomes",37,"independence",0,0.37,12,4
+"nonresponder_zero_prob_A1_minus_at_A2_minus",0.303079225582072,"C1_ZI_37_independence_rho_0","C1","C. Independent outcomes",37,"independence",0,0.37,12,4
+"nonresponder_zero_prob_A1_plus_at_A2_minus",0.29622333578062,"C1_ZI_37_independence_rho_0","C1","C. Independent outcomes",37,"independence",0,0.37,12,4
+"pre_positive_count_mean_A1_minus",14.7531925838444,"C1_ZI_37_independence_rho_0","C1","C. Independent outcomes",37,"independence",0,0.37,12,4
+"pre_positive_count_mean_A1_plus",17.0043756078404,"C1_ZI_37_independence_rho_0","C1","C. Independent outcomes",37,"independence",0,0.37,12,4
+"responder_positive_count_mean_A2_minus",17.2624276208118,"C1_ZI_37_independence_rho_0","C1","C. Independent outcomes",37,"independence",0,0.37,12,4
+"responder_positive_count_mean_A2_plus",20.7428842864407,"C1_ZI_37_independence_rho_0","C1","C. Independent outcomes",37,"independence",0,0.37,12,4
+"nonresponder_positive_count_mean_A2_minus",30.267594459092,"C1_ZI_37_independence_rho_0","C1","C. Independent outcomes",37,"independence",0,0.37,12,4
+"nonresponder_positive_count_mean_A2_plus",22.7772194562899,"C1_ZI_37_independence_rho_0","C1","C. Independent outcomes",37,"independence",0,0.37,12,4
+"responder_positive_count_mean_A1_minus_at_A2_minus",16.7168331418996,"C1_ZI_37_independence_rho_0","C1","C. Independent outcomes",37,"independence",0,0.37,12,4
+"responder_positive_count_mean_A1_plus_at_A2_minus",17.8258290689794,"C1_ZI_37_independence_rho_0","C1","C. Independent outcomes",37,"independence",0,0.37,12,4
+"nonresponder_positive_count_mean_A1_minus_at_A2_minus",26.8600870826065,"C1_ZI_37_independence_rho_0","C1","C. Independent outcomes",37,"independence",0,0.37,12,4
+"nonresponder_positive_count_mean_A1_plus_at_A2_minus",34.107382880942,"C1_ZI_37_independence_rho_0","C1","C. Independent outcomes",37,"independence",0,0.37,12,4
